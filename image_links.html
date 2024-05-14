@@ -1,0 +1,60 @@
+<!-- Requirements:
+Create an HTML file named image_links.html.
+Find or create three different images related to different topics (e.g., technology, nature, and food).
+Design a webpage with the following sections:
+Home: Include a welcome message and a linked image related to technology.
+Gallery: Display a grid of linked images related to nature.
+Menu: List food items, and each item should be linked to an image related to that food.
+4. Use appropriate HTML tags for headings, paragraphs, lists, and images.
+
+5. Link each image to a relevant external website (use placeholder URLs if needed).
+
+6. Ensure the page is well-structured and easy to navigate. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image_Links</title>
+</head>
+<body>
+    <section>
+        <h1>Home</h1>
+        <p>Welcome to the world of Technology of Images</p>
+    <a href="Images/skills.png">
+        <img src="Images/Frontend_Career_path.png" alt="The career path for a front-end developer"
+          width ="450"
+        height ="200"/>
+    </a>
+    </section>
+    <section>
+        <H1>Gallery of Nature</H1>
+    <div class="container">
+        <div class="gallery-item">
+           <img src="Images/Nature image.jpeg" class="gallery-image" alt="A butterfly and flowers"/>
+        </div class="gallery-item">
+           <img src="Images/Squirel.png" class="gallery-image" alt="squirrel on rock"/>
+        </div>
+        <div class="gallery-item">
+            <img src="Images/mountain-view.png" class="gallery-image" alt="A mountain"/>
+        </div>
+        <div class="gallery-item">
+            <img src="Images/bird.png" class="gallery-image" alt="A bird love for flowers"/>
+        </div>
+        <div class="gallery-item">
+            <img src="Images/Zebras.png" class="gallery-image" alt="Zebras"/>
+        </div>
+    </div>
+
+    </section>
+    <section>
+        <h1>Menu</h1>
+        <ul>
+           <li><a href="Images/kales.jpg" target="_blank">Kales</a></li>
+            <li><a href="Images/apple.jpeg" target="_blank">Apple</a></li>
+            <li><a href="Images/meat.jpeg" target="_blank">Meat</a></li>
+        </ul>
+    </section>
+</body>
+</html>
